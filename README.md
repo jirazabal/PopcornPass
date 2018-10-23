@@ -1,1 +1,2 @@
-# CISC474_Project2
+# Popcorn Pass
+To run type 'ng serve'
