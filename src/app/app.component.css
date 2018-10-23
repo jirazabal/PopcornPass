@@ -1,0 +1,76 @@
+h1{
+    font-family: Helvetica, Arial, sans-serif;
+    padding-bottom: 20px;
+}
+
+.background {
+    background-image: url("http://image.tmdb.org/t/p/original//VuukZLgaCrho2Ar8Scl9HtV3yD.jpg");
+    background-position: center;
+    overflow: hidden;
+}
+
+.jumbotron {
+    text-align: center;
+    -webkit-text-fill-color: aliceblue;
+    background: rgb(51, 51, 53);
+}
+
+.dropdown-menu {
+    color: aliceblue;
+    align-content: right;
+    justify-content: right;
+}
+
+
+table {
+    text-align: center;
+}
+
+th, tr {
+    text-align: left;
+}
+
+body {
+margin: 20px;
+}
+
+.wrapper {
+
+    display: grid;
+    padding-left: 40px;
+    grid-template-columns: 185px 185px 185px 185px 185px;
+    grid-template-rows: 330px 330px 330px 330px;
+    grid-gap: 10px;
+    background-color:  rgb(51, 51, 53);
+    color: #444;
+}
+
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 110%;
+}
+
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: rgba(233, 233, 233, 0.637);
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
